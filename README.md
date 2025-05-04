@@ -10,6 +10,15 @@
 - Temiz ve anlaşılır HTML/CSS yapısı
 - Kolayca özelleştirilebilir içerik
 
+
+
+## 🛠 Kullanılan Teknolojiler
+
+- HTML5
+- CSS3
+- Bootstrap 5
+
+
 ## 📱 Projeden Görseller
 
 ### 💻 Masaüstü Versiyon
@@ -22,8 +31,3 @@
 
 
 
-## 🛠 Kullanılan Teknolojiler
-
-- HTML5
-- CSS3
-- Bootstrap 5
