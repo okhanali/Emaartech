@@ -1,0 +1,66 @@
+.w-100-height{
+    height: 90vh;
+    width: 100%;
+}
+
+
+.carousel-inner::before{
+content: '';
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.5);
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+}
+
+.carousel-caption{
+    text-align: left;
+    margin-bottom: 200px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    text-transform: uppercase;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+#companies{
+    background-color: #212529;
+    color: #b5b5b5;
+    margin-top: -220px;
+}
+
+.ceo-row{
+    margin-top: 25%;
+}
+
+
+.card-image{
+    width: 100%;
+    height: 200px;
+    overflow: hidden
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .carousel-caption p{
+        font-size: 12px;
+    }
+    .carousel-caption h5{
+        font-size: 25px;
+    }
+    .carousel-caption button,
+    .carousel-caption input{
+        font-size: 12px;
+    }
+    .ceo-row{
+        margin-top: 50%;
+    }
+    .reviews-sign{
+        display: none;
+    }
+}

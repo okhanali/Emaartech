@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bs CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+
+    <!-- Css Link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Emaartech Building</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="/image/emartech-logo.jpeg" width="55" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Nav Items -->
+            <ul class="navbar-nav text-center ms-auto mx-4">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Popüler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Yorumlar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sorular</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-dark text-white rounded-3" href="#"
+                  >Bize Ulaşın</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- hero start -->
+    <section id="hero">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/image/home6.jpg"
+              class="d-block w-100-height object-fit-cover"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <p>1/3</p>
+              <h5>DAHA KOLAY KEŞFEDİN</h5>
+              <div class="d-flex">
+                <input
+                  type="text"
+                  class="form-control w-50"
+                  placeholder="Arama ..."
+                />
+                <button class="btn btn-light btn-sm mx-2 px-3">
+                  <i class="bi bi-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/image/home7.jpg"
+              class="d-block w-100-height object-fit-cover"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <p>2/3</p>
+              <h5>Gelecek Nesiller İçin</h5>
+              <button class="btn btn-light btn-lg">Daha Fazla</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/image/home8.jpg"
+              class="d-block w-100-height object-fit-cover"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <p>3/3</p>
+              <h5>EMLAK ALIM SATIM</h5>
+              <button class="btn btn-light btn-lg">Daha Fazla</button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- hero end  -->
+
+    <!-- Populer Start -->
+    <section id="populer" class="container my-5">
+      <!-- Top -->
+      <div>
+        <p>Popüler</p>
+
+        <div class="d-flex align-items-center justify-content-between">
+          <h2>Popüler Rezidanslarımız</h2>
+          <h6 class="d-flex align-items-center">
+            Tümünü Keşfedin <span class="fw-bold fs-3 mx-2">&rarr;</span>
+          </h6>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <!-- Column -->
+        <div class="col my-4">
+          <!-- Card -->
+          <div class="card">
+            <img src="/image/home1.jpg" class="card-img-top" alt="home-image" />
+            <div class="card-body">
+              <!-- Location -->
+              <p>Malatya,Türkiye</p>
+              <!-- Center -->
+              <div class="d-flex justify-content-center gap-2">
+                <p><i class="bi bi-car-front-fill"></i> 20dk</p>
+                <p><i class="bi bi-play-fill"></i> 8*8</p>
+                <p><i class="bi bi-compass"></i> 2000m<sup>2</sup></p>
+              </div>
+              <!-- Bottom -->
+              <div
+                class="d-flex align-items-center justify-content-between text-truncate"
+              >
+                <button class="btn btn-dark">Rezervasyon Yap</button>
+                <h5>&#8378;20.130.048</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Column -->
+        <div class="col my-4">
+          <!-- Card -->
+          <div class="card">
+            <img src="/image/home2.jpg" class="card-img-top" alt="home-image" />
+            <div class="card-body">
+              <!-- Location -->
+              <p>Karabük,Türkiye</p>
+              <!-- Center -->
+              <div class="d-flex justify-content-center gap-2">
+                <p><i class="bi bi-car-front-fill"></i> 20dk</p>
+                <p><i class="bi bi-play-fill"></i> 8*8</p>
+                <p><i class="bi bi-compass"></i> 2000m<sup>2</sup></p>
+              </div>
+              <!-- Bottom -->
+              <div
+                class="d-flex align-items-center justify-content-between text-truncate"
+              >
+                <button class="btn btn-dark">Rezervasyon Yap</button>
+                <h5>&#8378;20.130.048</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Column -->
+        <div class="col my-4">
+          <!-- Card -->
+          <div class="card">
+            <img src="/image/home3.jpg" class="card-img-top" alt="home-image" />
+            <div class="card-body">
+              <!-- Location -->
+              <p>İstanbul,Türkiye</p>
+              <!-- Center -->
+              <div class="d-flex justify-content-center gap-2">
+                <p><i class="bi bi-car-front-fill"></i> 20dk</p>
+                <p><i class="bi bi-play-fill"></i> 8*8</p>
+                <p><i class="bi bi-compass"></i> 2000m<sup>2</sup></p>
+              </div>
+              <!-- Bottom -->
+              <div
+                class="d-flex align-items-center justify-content-between text-truncate"
+              >
+                <button class="btn btn-dark">Rezervasyon Yap</button>
+                <h5>&#8378;20.130.048</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Populer End -->
+
+    <!-- Companies Start -->
+    <section id="companies">
+      <div class="container pt-5">
+        <!-- CEO -->
+        <div class="row ceo-row ">
+          <div class="col-lg-4">
+            <h2>Ali Okhan</h2>
+            <p>CEO</p>
+          </div>
+          <div class="col-lg-8">
+            <h6>
+              "Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Praesentium autem veritatis natus molestias architecto eligendi
+              enim sint quae, cumque ea error voluptas nulla exercitationem odio
+              saepe nemo id quasi commodi doloremque. Asperiores obcaecati saepe
+              reprehenderit sequi, quod earum atque sapiente consequuntur optio
+              velit minus possimus laboriosam animi et quo nulla aspernatur
+              laborum sed soluta omnis nostrum impedit fuga odio?"
+            </h6>
+          </div>
+        </div>
+        <hr class="text-light" />
+
+        <!-- Companies -->
+        <div class="row text-center mt-5">
+          <div class="col-md-3 col-sm-6">
+            <img src="/image/logo1.png" class="w-75" alt="logo" />
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img src="/image/logo2.png" class="w-75" alt="logo" />
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img src="/image/logo3.png" class="w-75" alt="logo" />
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img src="/image/logo4.png" class="w-75" alt="logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Companies End  -->
+
+    <!-- Services Start -->
+    <section id="services">
+      <h2 class="text-center mt-4 mb-5">Hizmetlerimiz</h2>
+      <div class="container">
+        <div class="row">
+          <!-- Image -->
+          <div class="col-lg-5">
+            <div class="d-flex">
+              <div class="about-img mx-2">
+                <img
+                  src="/image/about1.png"
+                  class="img-fluid h-100 mt-4"
+                  alt=""
+                />
+              </div>
+              <div class="about-img">
+                <img src="/image/about2.png" class="img-fluid h-75" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Text Content -->
+          <div class="col-lg-7 mt-5">
+            <h2>Konfor Bizim Birinci Önceliğimizdir</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              fugiat rerum omnis mollitia ipsum labore nostrum facilis error,
+              sed culpa minus, non totam quas delectus quaerat autem
+              voluptatibus pariatur maiores distinctio modi voluptatum
+              architecto dolores consequatur provident? Incidunt id autem itaque
+              beatae at quis accusantium, repellendus nam odit doloribus!
+              Praesentium deserunt iure culpa delectus neque dignissimos cum ab?
+              Minima aut, optio unde necessitatibus, deserunt officiis
+              perferendis quas eius maiores odit ea quo amet consectetur
+              adipisci neque, quos mollitia quisquam dolores. Voluptatibus illo
+              maiores ipsum itaque consequatur, pariatur, tenetur ea explicabo
+              minima at magnam velit dicta quod in blanditiis nesciunt quas.
+            </p>
+            <button class="btn btn-dark">Daha Fazlası İçin</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services End -->
+
+    <!-- Blog Start -->
+    <section id="blog">
+      <div class="container mt-5">
+        <!-- Top -->
+        <div>
+          <p>Blog</p>
+          <div class="d-flex justify-content-between">
+            <h2>Güncel Konut Bilgileri</h2>
+            <button class="btn btn-dark">Tümünü Gör</button>
+          </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-2">
+          <!-- Column -->
+          <div class="col">
+            <div class="card border-0">
+              <!-- Image -->
+              <div class="card-image">
+                <img src="/image/home-2.jpg" class="img-fluid" alt="" />
+              </div>
+
+              <!-- Card Body -->
+              <div class="card-body">
+                <p>02 Nisan 2025</p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Totam, sunt.
+                </p>
+
+                <button
+                  class="btn text-primary"
+                  style="background-color: #d4e8ff"
+                >
+                  Daha Fazla Oku
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column -->
+          <div class="col">
+            <div class="card border-0">
+              <!-- Image -->
+              <div class="card-image">
+                <img src="/image/home-3.jpg" class="img-fluid" alt="" />
+              </div>
+
+              <!-- Card Body -->
+              <div class="card-body">
+                <p>02 Nisan 2025</p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Totam, sunt.
+                </p>
+
+                <button
+                  class="btn text-primary"
+                  style="background-color: #d4e8ff"
+                >
+                  Daha Fazla Oku
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column -->
+          <div class="col">
+            <div class="card border-0">
+              <!-- Image -->
+              <div class="card-image">
+                <img src="/image/home4.jpg" class="img-fluid" alt="" />
+              </div>
+
+              <!-- Card Body -->
+              <div class="card-body">
+                <p>02 Nisan 2025</p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Totam, sunt.
+                </p>
+
+                <button
+                  class="btn text-primary"
+                  style="background-color: #d4e8ff"
+                >
+                  Daha Fazla Oku
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog End  -->
+
+    <!-- Reviews Start -->
+    <section id="reviews" class="bg-dark text-white mt-5">
+      <div class="container pt-4">
+        <!-- Top -->
+        <div class="d-flex">
+          <h2>Müşterilerimiz Bizim Hakkımızda Ne Diyor?</h2>
+
+          <div class="ms-auto reviews-sign">
+            <button class="btn text-white">&larr;</button>
+            <button class="btn text-white">&rarr;</button>
+          </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-5">
+          <!-- Column -->
+          <div class="col">
+            <div class="card bg-transparent text-white border-0">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="/image/team-1.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-7 mt-3">
+                  <h5>Yunus Emre</h5>
+                  <p class="text-secondary">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p>Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Column -->
+          <div class="col">
+            <div class="card bg-transparent text-white border-0">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="/image/team-2.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-7 mt-3">
+                  <h5>Ali Aga</h5>
+                  <p class="text-secondary">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p>Lead Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Column -->
+          <div class="col">
+            <div class="card bg-transparent text-white border-0">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="/image/team-3.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-7 mt-3">
+                  <h5>Bedirhan Koca</h5>
+                  <p class="text-secondary">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p>Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Reviews End -->
+
+    <!-- Questions Start -->
+     <section id="questions">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-5">
+            <p>Sorular</p>
+            <h2>Sıkça Sorulan Sorular</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptate sed fugit. Est itaque accusamus beatae saepe soluta aspernatur voluptatibus vero velit impedit quidem, tenetur, ex odit quisquam ad id officiis ipsam magni, deleniti aliquid. Sapiente laudantium ipsa omnis, nemo dignissimos eum id rem nam aspernatur architecto exercitationem, expedita quibusdam!</p>
+            <button class="btn btn-dark">Daha Fazlası İçin</button>
+          </div>
+          <div class="col-lg-7 mt-4">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Hizmetlerimiz nelerdir?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show fw-light" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Satılık ve kiralık gayrimenkulleriniz için danışmanlık, portföy yönetimi ve güvenilir aracılık hizmetleri sunuyoruz.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Faaliyetlerimiz nelerdir?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse fw-light" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Gayrimenkul alım-satımı, kiralama, ekspertiz, yatırım danışmanlığı ve proje geliştirme alanlarında faaliyet göstermekteyiz.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Nerelerdeyiz?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse fw-light" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    İstanbul başta olmak üzere Türkiye genelinde birçok bölgede aktif olarak hizmet veriyoruz.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- Question End -->
+
+    <!-- Footer Start -->
+     <footer class="bg-dark text-white py-5">
+      <div class="container">
+        <!-- Row -->
+        <div class="row">
+          <!-- Column -->
+          <div class="col-lg-6">
+            <h5 class="fw-bold">Bizim Hakkımızda</h5>
+            <p class="fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, vitae!</p>
+            <ul class="list-unstyled d-flex flex-column gap-3">
+              <li>
+                <i class="bi bi-crosshair "></i> İstanbul,Türkiye
+              </li>
+              <li>
+                <i class="bi bi-crosshair"></i> Ankara,Türkiye
+              </li>
+              <li>
+                <i class="bi bi-crosshair"></i> Karabük,Türkiye
+              </li>
+              <li>
+                <i class="bi bi-crosshair"></i> Malatya,Türkiye
+              </li>
+              <li>
+                <i class="bi bi-telephone-fill"></i> 444 444 444
+              </li>
+              <li>
+                <i class="bi bi-envelope"></i> info@gmail.com
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column -->
+          <div class="col-lg-3">
+            <h5 class="fw-bold">Hızlı Bağlantılar</h5>
+
+            <ul class="list-unstyled d-flex flex-column gap-3 mt-2">
+              <li>
+                <a class="text-decoration-none text-white fw-medium" href="#">Anasayfa</a>
+              </li>
+              <li>
+                <a class="text-decoration-none text-white fw-medium" href="#">Popüler</a>
+              </li>
+              <li>
+                <a class="text-decoration-none text-white fw-medium" href="#">Hizmetlerimiz</a>
+              </li>
+              <li>
+                <a class="text-decoration-none text-white fw-medium" href="#">Haberler</a>
+              </li>
+              <li>
+                <a class="text-decoration-none text-white fw-medium" href="#">İletişim</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column -->
+          <div class="col-lg-3">
+            <h5 class="fw-bold">Bize Ulaşmak İçin</h5>
+
+            <ul class="list-unstyled d-flex flex-column gap-3 mt-2">
+              <li>
+                <i class="bi bi-facebook fw-medium"></i> Facebook
+              </li>
+              <li>
+                <i class="bi bi-instagram fw-medium"></i> Instagram
+              </li>
+              <li>
+                <i class="bi bi-twitter-x fw-medium"></i> Twitter
+              </li>
+              <li>
+                <i class="bi bi-youtube fw-medium"></i> Youtube
+              </li>
+              <li>
+                <i class="bi bi-linkedin fw-medium"></i> LinkedIn
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+         <p class="text-center mt-5 fw-medium">&copy; <span class="text-secondary">Emartech</span> Tüm Hakları Saklıdır</p>
+      </div>
+     </footer>
+    <!-- Footer End  -->
+
+
+
+
+
+    <!-- Bs Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
